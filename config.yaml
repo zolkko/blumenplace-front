@@ -1,0 +1,11 @@
+---
+# default Flask's configuration settings
+DEBUG: true
+
+# application specific configuration settings
+host: localhost
+port: 5060
+crypto:
+    public: ./keys/admin_blumenplace_io.pub
+    private: ./keys/admin_blumenplace_io
+
